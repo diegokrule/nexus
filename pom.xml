@@ -8,11 +8,11 @@
 
 	<distributionManagement>
 		<repository>
-			<id>nexus-third-parties</id>
+			<id>nexus</id>
 			<url>http://localhost:8081/repository/thirdparty/</url>
 		</repository>
 		<snapshotRepository>
-			<id>nexus-third-parties-snapshots</id>
+			<id>nexus</id>
 			<url>http://localhost:8081/repository/thirdparty-snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
