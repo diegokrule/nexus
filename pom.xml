@@ -6,6 +6,17 @@
 
 
 
+	<distributionManagement>
+		<repository>
+			<id>nexus-third-parties</id>
+			<url>http://localhost:8081/repository/thirdparty/</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus-third-parties-snapshots</id>
+			<url>http://localhost:8081/repository/thirdparty-snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 	<scm>
 		<connection>scm:git:https://github.com/diegokrule/nexus.git</connection>
 		<url>http://github.com/diegokrule/nexus</url>
